@@ -6,9 +6,10 @@ class Broom < Formula
   version "1.0.0"
   head "https://github.com/jcder163/Broom.git"
   url "https://github.com/jcder163/Broom/releases/download/#{version}/Broom-#{version}.zip"
+  sha256 "8cc3c0d1de790282d75229483596cc734fda6b42f14e5202ad0969b4b18b165d"
   
   def install
-    bin.install 'Product/Broom'
+    bin.install 'Broom'
   end
 
   test do
