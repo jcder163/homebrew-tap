@@ -3,9 +3,10 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Asc < Formula
   desc ""
+  version "2.1.0-rc-1"
   homepage ""
-  url "https://github.com/jcder163/ASC/releases/download/2.0.0-rc-2/asc_2.0.0.tar.gz"
-  sha256 "7415d288a9df46cca640da2cd8b85b9447fc82cd56e5c4254b405c8c499e736a"
+  url "https://github.com/jcder163/ASC/releases/download/2.1.0-rc-1/asc-macos-arm64.tar.gz"
+  sha256 "d1736a68b75e09583a0656bbcdf12ae6a4b91f9762ea187044f6c233c1192b75"
   license ""
 
   # depends_on "cmake" => :build
